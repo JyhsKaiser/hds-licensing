@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@hds/shared-schemas": ["../../packages/shared-schemas/index.ts"],
+      "@hds/database": ["../../packages/database/index.ts"]
+    }
+  }
+}

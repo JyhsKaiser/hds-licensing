@@ -9,7 +9,8 @@
     },
     "dependencies": {
         "@hds/shared-schemas": "*",
-        "zod": "^3.22.0"
+        "zod": "^3.22.0",
+        "@hds/database": "workspace:*"
     },
     "devDependencies": {
         "@sveltejs/adapter-auto": "^3.0.0",

@@ -23,7 +23,7 @@ export const actions = {
         try {
             // 2. Enviamos la petición al backend de Fastify
             // Usamos el nombre del servicio 'backend' si estás en Docker
-            const response = await fetch('http://backend:3000/api/licenses', {
+            const response = await fetch('http://localhost:3000/api/licenses', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(result.data)
