@@ -1,0 +1,21 @@
+{
+    "name": "hds-licensing",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Monorepo para H-Digital Solutions - Licenciamiento",
+    "workspaces": [
+        "apps/*",
+        "packages/*"
+    ],
+    "scripts": {
+        "dev": "npm run dev --workspaces --if-present",
+        "build": "npm run build --workspaces --if-present",
+        "db:generate": "npm run generate --workspace=packages/database",
+        "db:push": "npm run push --workspace=packages/database"
+    },
+    "devDependencies": {
+        "typescript": "^5.0.0",
+        "prettier": "^3.0.0",
+        "eslint": "^8.0.0"
+    }
+}
