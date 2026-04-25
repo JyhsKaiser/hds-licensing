@@ -4,7 +4,7 @@
     "private": true,
     "description": "Monorepo para H-Digital Solutions - Licenciamiento",
     "workspaces": [
-        "apps/*",
+        "app/*",
         "packages/*"
     ],
     "scripts": {
@@ -14,8 +14,12 @@
         "db:push": "npm run push --workspace=packages/database"
     },
     "devDependencies": {
-        "typescript": "^5.0.0",
+        "eslint": "^8.0.0",
         "prettier": "^3.0.0",
-        "eslint": "^8.0.0"
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@hds/shared-schemas": "^1.0.0",
+        "zod": "^4.3.6"
     }
 }
