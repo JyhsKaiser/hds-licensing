@@ -1,4 +1,6 @@
 <script lang="ts">
+  import "../app.css";
+  import "../app.css"; // Esto carga Tailwind en toda la aplicación
   // Aquí podrías importar un archivo CSS global o Tailwind
   export let data;
 </script>

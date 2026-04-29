@@ -8,12 +8,7 @@
   <section class="md:col-span-1 bg-white p-6 rounded-lg shadow-sm border">
     <h2 class="text-xl font-bold mb-4">Registrar Licencia</h2>
 
-    <form
-      method="POST"
-      action="?/create"
-      use:enhance
-      class="flex flex-col gap-4"
-    >
+    <form method="POST" use:enhance class="flex flex-col gap-4">
       <div>
         <label class="block text-sm font-medium text-gray-700">Cliente</label>
         <input
